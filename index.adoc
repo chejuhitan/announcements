@@ -1,0 +1,26 @@
+---
+sidebar: sidebar
+permalink: index.html
+---
+
+= NetApp Docs announcements
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+:keywords: cloud sync, documentation, docs
+
+[.lead]
+In February of 2018, we launched GitHub-based documentation on https://docs.netapp.com[docs.netapp.com^], with the goal of getting content to you faster, while enabling community contributions. We're continuously adding new content and introducing improvements to the content experience. Watch this page to learn about the latest changes.
+
+Here are the most recent announcements:
+
+* link:style-and-syntax.html[Style guide and syntax reference] (24 Oct 2019)
+* link:netapp-data-availability-services.html[Docs for Data Availability Services] (25 July 2019)
+* link:salesforce.html[Docs for SaaS Backup for Salesforce] (4 July 2019)
+* link:active-iq.html[Docs for Active IQ] (3 April 2019)
+* link:rss.html[RSS feeds on what's new pages] (21 Mar 2019)
+* link:cloud-tiering.html[Docs for Cloud Tiering] (3 Mar 2019)
+* link:avatars.html[GitHub avatars for contributors] (19 Feb 2019)
+* link:kubernetes-service.html[Docs for the Kubernetes Service] (24 Jan 2019)

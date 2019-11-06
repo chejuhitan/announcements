@@ -1,0 +1,31 @@
+---
+sidebar: sidebar
+permalink: request-doc-changes.html
+keywords: announcements, github issues, request doc changes, request changes
+summary: If you'd like to request changes to the docs and you'd rather not edit the source content directly, you can now provide feedback by clicking Request Doc Changes.
+last_modified: 19-Feb-2019
+---
+
+= Request doc changes
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+If you'd like to request changes to the docs and you'd rather not edit the source content directly, you can now provide feedback by clicking *Request doc changes*.
+
+This new button appears at the top of each page:
+
+image:request-doc-changes.png[]
+
+When you click *Request doc changes*, you're prompted to create or sign in to your GitHub account (it's free and easy to create an account).
+
+After you log in, a form to create a new GitHub issue appears. The text box is prepopulated with the title and URL of the page. Don't delete this information--it helps us identify the page where you found the issue.
+
+image:github-issue.png[]
+
+Provide details in the text box, and then click *Submit new issue* to create an issue for your request.
+
+We’ll review your feedback and take it from there.
