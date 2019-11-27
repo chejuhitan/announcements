@@ -1,0 +1,41 @@
+entries:
+  - title: Welcome!
+    url: /index.html
+  - title: 2019
+    entries:
+      - title: Style guide and syntax reference
+        url: /style-and-syntax.html
+      - title: Docs for Data Availability Services
+        url: /netapp-data-availability-services.html
+      - title: Docs for SaaS Backup for Salesforce
+        url: /salesforce.html
+      - title: Docs for Active IQ
+        url: /active-iq.html
+      - title: RSS feeds on what's new pages
+        url: /rss.html
+      - title: Docs for Cloud Tiering
+        url: /cloud-tiering.html
+      - title: GitHub avatars for contributors
+        url: /avatars.html
+      - title: Docs for the Kubernetes Service
+        url: /kubernetes-service.html
+  - title: 2018
+    entries:
+      - title: Syntax highlighting
+        url: /syntax.html
+      - title: Page-level navigation
+        url: /navigation.html
+      - title: Docs for Converged Systems Advisor
+        url: /converged-systems-advisor.html
+      - title: New way to request doc changes
+        url: /request-doc-changes.html
+      - title: Docs for Cloud Insights
+        url: /cloud-insights.html
+      - title: Docs for Cloud Volumes ONTAP
+        url: /cloud-volumes-ontap.html
+      - title: Docs for Cloud Volumes Service for AWS
+        url: /cloud-volumes-service.html
+      - title: Docs for SaaS Backup for Office 365
+        url: /office365.html
+      - title: Introducing NetApp docs in GitHub
+        url: /introduction.html

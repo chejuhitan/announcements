@@ -1,0 +1,23 @@
+---
+sidebar: sidebar
+permalink: netapp-data-availability-services.html
+keywords: announcements, documentation, netapp data availability services, ndas
+summary: We've added docs for a new NetApp service. Documentation for NetApp Data Availability Services is now available on https://docs.netapp.com.
+last_modified: 25-July-2019
+---
+
+= Docs for NetApp Data Availability Services
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+We've added docs for a new NetApp service. Documentation for NetApp Data Availability Services is now available on https://docs.netapp.com[docs.netapp.com^].
+
+NetApp Data Availability Services is a cloud-based service to manage data protection workflows from ONTAP primary to secondary storage systems to the cloud, and across multiple public clouds.
+
+Go to the https://docs.netapp.com/us-en/netapp-data-availability-services/[NetApp Data Availability Services documentation^] to learn how to get started.
+
+image:ndas.gif[]
