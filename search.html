@@ -78,22 +78,31 @@
 
   <script>
       $(document).ready(function() {
-          // Initialize navgoco with default options
-          $("#mysidebar").navgoco({
-              caretHtml: '',
-              accordion: true,
-              openClass: 'active', // open
-              save: false, // leave false or nav highlighting doesn't work right
-              cookie: {
-                  name: 'navgoco',
-                  expires: false,
-                  path: '/'
+          
+          var collapseOnInit = false;
+          
+
+          var navSettings = {
+              "caretHtml": '',
+              "accordion": collapseOnInit,
+              "openClass": 'active', // open
+              "save": false, // leave false or nav highlighting doesn't work right
+              "cookie": {
+                  "name": 'navgoco',
+                  "expires": false,
+                  "path": '/'
               },
-              slide: {
-                  duration: 400,
-                  easing: 'swing'
+              "slide": {
+                  "duration": 400,
+                  "easing": 'swing'
               }
-          });
+          };
+
+          // Initialize navgoco with default options
+          $("#mysidebar").navgoco(navSettings);
+          
+          $("#mysidebar").navgoco('toggle', true);
+          
 
           $("#collapseAll").click(function(e) {
               e.preventDefault();
@@ -407,7 +416,7 @@
 
 <p class="page-details">
 
-<time datetime="2019-12-20 00:46:05 +0000">12/20/2019</time>
+<time datetime="2019-12-20 03:41:40 +0000">12/20/2019</time>
 
 
 <span>Contributors
