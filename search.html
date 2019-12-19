@@ -77,15 +77,11 @@
   <script src='/announcements/js/customscripts.js'></script>
 
   <script>
-    var collapseOnInit = true;
-    
-      collapseOnInit = false;
-    
       $(document).ready(function() {
           // Initialize navgoco with default options
           $("#mysidebar").navgoco({
               caretHtml: '',
-              accordion: collapseOnInit,
+              accordion: true,
               openClass: 'active', // open
               save: false, // leave false or nav highlighting doesn't work right
               cookie: {
@@ -98,9 +94,6 @@
                   easing: 'swing'
               }
           });
-          if(!collapseOnInit) {
-            $("#mysidebar").navgoco('toggle', true);
-          }
 
           $("#collapseAll").click(function(e) {
               e.preventDefault();
@@ -414,7 +407,7 @@
 
 <p class="page-details">
 
-<time datetime="2019-12-19 23:34:42 +0000">12/19/2019</time>
+<time datetime="2019-12-20 00:17:17 +0000">12/20/2019</time>
 
 
 <span>Contributors
@@ -498,9 +491,6 @@
               </div>
               <div class="n-footer__copyright">
                 <a target="_self" class="n-footer__copyright-link" href="javascript:netapp_mailto()">Email your feedback</a>
-              </div>
-              <div class="n-footer__copyright">
-                <a href="https://docs.netapp.com/us-en/announcements/" class="n-footer__copyright-link">Announcements</a>
               </div>
             </div>
           </div>
