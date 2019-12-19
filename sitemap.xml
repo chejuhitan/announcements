@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+    
+    
+  
+
+  
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/announcements/active-iq.html</loc>
+      
+      <lastmod>2019-04-03T00:00:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/announcements/avatars.html</loc>
+      
+      <lastmod>2019-02-19T00:00:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/announcements/cloud-insights.html</loc>
+      
+      <lastmod>2018-06-17T00:00:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/announcements/cloud-tiering.html</loc>
+      
+      <lastmod>2019-03-03T00:00:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/announcements/cloud-volumes-ontap.html</loc>
+      
+      <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/announcements/cloud-volumes-service.html</loc>
+      
+      <lastmod>2018-05-31T00:00:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/announcements/converged-systems-advisor.html</loc>
+      
+      <lastmod>2018-09-12T00:00:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/announcements/</loc>
+      
+      <lastmod>2019-11-06T18:49:33+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/announcements/introduction.html</loc>
+      
+      <lastmod>2018-02-02T00:00:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/announcements/kubernetes-service.html</loc>
+      
+      <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/announcements/navigation.html</loc>
+      
+      <lastmod>2018-11-26T00:00:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/announcements/netapp-data-availability-services.html</loc>
+      
+      <lastmod>2019-07-25T00:00:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/announcements/office365.html</loc>
+      
+      <lastmod>2018-05-18T00:00:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/announcements/request-doc-changes.html</loc>
+      
+      <lastmod>2019-02-19T00:00:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/announcements/rss.html</loc>
+      
+      <lastmod>2019-03-21T00:00:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/announcements/salesforce.html</loc>
+      
+      <lastmod>2019-06-04T00:00:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/announcements//search.html</loc>
+      
+      <lastmod>2019-12-19T23:34:42+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/announcements/style-and-syntax.html</loc>
+      
+      <lastmod>2019-10-24T00:00:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/announcements/syntax.html</loc>
+      
+      <lastmod>2018-12-03T00:00:00+00:00</lastmod>
+      
+    </url>
+  
+
+  
+  
+</urlset>
