@@ -3,6 +3,8 @@ entries:
     url: /index.html
   - title: 2019
     entries:
+      - title: Docs for NetApp HCI Cloud Services and Solutions
+        url: /hci.html
       - title: Style guide and syntax reference
         url: /style-and-syntax.html
       - title: Docs for Data Availability Services
