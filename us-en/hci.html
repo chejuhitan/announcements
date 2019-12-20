@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Syntax highlighting | NetApp Cloud Docs</title>
+  <title>Docs for NetApp HCI | NetApp Cloud Docs</title>
   <meta charset="utf-8">
-  <meta property="og:title" content="Syntax highlighting | NetApp Cloud Docs" />
+  <meta property="og:title" content="Docs for NetApp HCI | NetApp Cloud Docs" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://docs.netapp.com/announcements/us-en/syntax.html" />
-	<meta property="og:description" content="We've made it easier for you to view syntax for the most popular languages by adding highlighting." />
+	<meta property="og:url" content="https://docs.netapp.com/announcements/us-en/hci.html" />
+	<meta property="og:description" content="Docs for NetApp HCI Cloud Services and Solutions are now available." />
   <meta property="og:image" content="https://docs.netapp.com/announcements/us-en/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,8 +17,8 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="We've made it easier for you to view syntax for the most popular languages by adding highlighting.">
-  <meta name="keywords" content=" announcements, syntax highlighting">
+  <meta name="description" content="Docs for NetApp HCI Cloud Services and Solutions are now available.">
+  <meta name="keywords" content=" announcements, documentation, hci, hybrid, cloud">
   
   
 
@@ -315,7 +315,7 @@
         
 
   
-    <li><a href="hci.html">Docs for NetApp HCI Cloud Services and Solutions</a></li>
+    <li class="active"><a href="hci.html">Docs for NetApp HCI Cloud Services and Solutions</a></li>
   
 
   
@@ -363,7 +363,7 @@
         
 
   
-    <li class="active"><a href="syntax.html">Syntax highlighting</a></li>
+    <li><a href="syntax.html">Syntax highlighting</a></li>
   
 
   
@@ -418,11 +418,11 @@
           
 
 <div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">Syntax highlighting
+  <h1 class="n-doc__component-detail-heading">Docs for NetApp HCI
     <span>
       
-        <a target="_blank" href="https://github.com/NetAppDocs/announcements/blob/master/syntax.adoc" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit on GitHub</a>
-        <a target="_blank" href="https://github.com/NetAppDocs/announcements/issues/new?body=Page%3A%20[Syntax highlighting](https://docs.netapp.com/us-en/announcements/syntax.html)" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Request doc changes</a>
+        <a target="_blank" href="https://github.com/NetAppDocs/announcements/blob/master/hci.adoc" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit on GitHub</a>
+        <a target="_blank" href="https://github.com/NetAppDocs/announcements/issues/new?body=Page%3A%20[Docs for NetApp HCI](https://docs.netapp.com/us-en/announcements/hci.html)" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Request doc changes</a>
       
     </span>
   </h1>
@@ -430,16 +430,16 @@
 
 <p class="page-details">
 
-<time datetime="03-Dec-2018">12/03/2018</time>
+<time datetime="20-Dec-2019">12/20/2019</time>
 
 
 <span>Contributors
   
-  <a target="_blank" href="https://github.com/netapp-bcammett">
+  <a target="_blank" href="https://github.com/amgrissino">
     <img  class="avatar avatar-small"
-          alt="netapp-bcammett"
+          alt="amgrissino"
           width="20" height="20"
-          src="https://avatars3.githubusercontent.com/u/18287750?v=4"
+          src="https://avatars2.githubusercontent.com/u/36450105?v=4"
           style="border-radius: 50%;"/>
   </a>
   
@@ -448,51 +448,22 @@
 </p>
 
 <div class="paragraph lead">
-<p>We&#8217;ve made it easier for you to view syntax for the most popular languages by adding highlighting.</p>
+<p>We’ve added docs for enabling cloud services on NetApp HCI and for accessing the NetApp HCI Solutions Catalog.</p>
 </div>
 <div class="paragraph">
-<p>For example, here&#8217;s syntax for obtaining a user token from NetApp Cloud Central:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-http" data-lang="http">POST https://netapp-cloud-account.auth0.com/oauth/token
-Header: Content-Type: application/json
-Body:
-{
-              "username": "&lt;user_email&gt;",
-              "scope": "profile",
-              "audience": "https://api.cloud.netapp.com",
-              "client_id": "UaVhOIXMWQs5i1WdDxauXe5Mqkb34NJQ",
-              "grant_type": "password",
-              "password": "&lt;user_password&gt;"
-}</code></pre>
-</div>
+<p>Go to <a href="https://docs.netapp.com/us-en/hci/index.html">NetApp HCI Cloud Services and Solutions</a> to learn how to get started with cloud services on NetApp HCI and also to learn about using solutions with NetApp HCI.</p>
 </div>
 <div class="paragraph">
-<p>As you can see, we&#8217;ve also added a Copy button to make it easy for you to copy the syntax to your clipboard.</p>
+<p>The cloud services information explains how to enable cloud services using NetApp HCI Hybrid Cloud Control, how to create clusters and quickly deploy applications using NetApp Kubernetes Service, and how to create Cloud Volumes on NetApp HCI using NetApp Fabric Orchestrator. Fabric Orchestrator is a centralized storage and data management control plane to discover and manage your storage assets and data estate, anywhere.</p>
 </div>
 <div class="paragraph">
-<p>Here&#8217;s another example that shows JSON output:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-json" data-lang="json">[
-    {
-        "header": {
-            "requestId": "init",
-            "clientId": "init",
-            "agentId": "init"
-        },
-        "payload": {
-            "init": {}
-        },
-        "id": "5801"
-    }
-]</code></pre>
-</div>
+<p><span class="image"><img src="./media/hci_cloudservices.png" alt="NetApp HCI Cloud Services documentation"></span></p>
 </div>
 <div class="paragraph">
-<p>We hope that you find this enhancement helpful!</p>
+<p>We’ve also added the NetApp HCI Solutions Catalog, which provides customers with the information needed to deploy and operate private clouds, supporting a wide variety of use cases spanning both on-premise and off-premise. NetApp HCI Solutions deliver value-add capabilities across public, private, hybrid and multi-cloud in technology areas such as DevOps, end user computing, enterprise applications, artificial intelligence, data protection and Data Fabric management.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/hci_solutions_catalog.png" alt="NetApp HCI Solutions Catalog"></span></p>
 </div>
 
         </article>
