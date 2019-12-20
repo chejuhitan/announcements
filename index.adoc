@@ -16,6 +16,7 @@ In February of 2018, we launched GitHub-based documentation on https://docs.neta
 
 Here are the most recent announcements:
 
+* link:hci.html[Docs for NetApp HCI Cloud Services and Solutions] (22 Nov 2019)
 * link:style-and-syntax.html[Style guide and syntax reference] (24 Oct 2019)
 * link:netapp-data-availability-services.html[Docs for Data Availability Services] (25 July 2019)
 * link:salesforce.html[Docs for SaaS Backup for Salesforce] (4 July 2019)
