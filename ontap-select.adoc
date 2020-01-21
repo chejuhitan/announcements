@@ -21,3 +21,7 @@ We're excited about this change because the content authoring team combined cont
 Take a look and contribute to this new documentation experience for ONTAP Select. You can edit, request a change, or even send feedback. Go to the https://docs.netapp.com/us-en/ontap-select/index.html[ONTAP Select documentation] to get started.
 
 image:ontap-select.gif[]
+
+*animated gif instead of a static image*
+
+image:Untitled2.gif[]
