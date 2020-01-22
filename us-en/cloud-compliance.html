@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Search results | NetApp Cloud Docs</title>
+  <title>Docs for Cloud Compliance | NetApp Cloud Docs</title>
   <meta charset="utf-8">
-  <meta property="og:title" content="Search results | NetApp Cloud Docs" />
+  <meta property="og:title" content="Docs for Cloud Compliance | NetApp Cloud Docs" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://docs.netapp.com/announcements/search.html" />
-	<meta property="og:description" content="" />
-  <meta property="og:image" content="https://docs.netapp.com/announcements/images/logo-tophat-social.png" />
+	<meta property="og:url" content="https://docs.netapp.com/announcements/us-en/cloud-compliance.html" />
+	<meta property="og:description" content="Right before the end of 2019, we added content for the Cloud Compliance service in the Cloud Manager documentation." />
+  <meta property="og:image" content="https://docs.netapp.com/announcements/us-en/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="format-detection" content="telephone=no">
@@ -17,19 +17,17 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="">
-  <meta name="keywords" content=" ">
+  <meta name="description" content="Right before the end of 2019, we added content for the Cloud Compliance service in the Cloud Manager documentation.">
+  <meta name="keywords" content=" announcements, documentation, cloud compliance">
   
-  
-  <meta name="translate" content="false"/>
   
 
   <!-- Icons -->
-  <link rel="icon" href="/announcements/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/announcements/us-en/images/favicon.ico" type="image/x-icon">
 
   <!-- RSS Feed -->
   
-  <link rel="alternate" type="application/rss+xml" title="NetApp Cloud Docs" href="/announcements/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="NetApp Cloud Docs" href="/announcements/us-en/feed.xml">
   
 
   <!-- CSS Definitions: NetApp CSS should be defined after generic css -->
@@ -38,23 +36,23 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
 
   <!-- LUCI CSS Content -->
-  <link rel="stylesheet" href="/announcements/common/css/esb.min.css">
-  <link rel="stylesheet" href="/announcements/common/css/netapp-library.min.css">
-  <link rel="stylesheet" href="/announcements/common/css/doc.css">
-  <link rel="stylesheet" href="/announcements/common/css/doc-components.css">
+  <link rel="stylesheet" href="/announcements/us-en/common/css/esb.min.css">
+  <link rel="stylesheet" href="/announcements/us-en/common/css/netapp-library.min.css">
+  <link rel="stylesheet" href="/announcements/us-en/common/css/doc.css">
+  <link rel="stylesheet" href="/announcements/us-en/common/css/doc-components.css">
 
-  <link rel="stylesheet" href='/announcements/css/na-sidebar.css' type='text/css'>
-  <link rel='stylesheet' href='/announcements/css/na-search.css' type='text/css'>
-  <link rel='stylesheet' href='/announcements/css/clouddocs.css' type='text/css'>
+  <link rel="stylesheet" href='/announcements/us-en/css/na-sidebar.css' type='text/css'>
+  <link rel='stylesheet' href='/announcements/us-en/css/na-search.css' type='text/css'>
+  <link rel='stylesheet' href='/announcements/us-en/css/clouddocs.css' type='text/css'>
 
   <!-- Font awesome seems to affect our GitHub Icon and generic "arrow box" for external links. -->
-  <link rel="stylesheet" type="text/css" href="/announcements/css/font-awesome.min.css">
-  <!-- <link rel="stylesheet" href="/announcements/css/customstyles.css"> -->
+  <link rel="stylesheet" type="text/css" href="/announcements/us-en/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="/announcements/us-en/css/customstyles.css"> -->
   <!-- Controls the shadow effect for search dropdown menu -->
-  <link rel="stylesheet" href="/announcements/css/boxshadowproperties.css">
+  <link rel="stylesheet" href="/announcements/us-en/css/boxshadowproperties.css">
 
   <!-- NetApp CSS controls the technical content -->
-  <link rel='stylesheet' href='/announcements/css/netapp.css' type='text/css'>
+  <link rel='stylesheet' href='/announcements/us-en/css/netapp.css' type='text/css'>
 
   
 
@@ -63,18 +61,23 @@
   <!-- Used to import Promise for IE. Required for SearchKit -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
   
-
+    <script src='/announcements/us-en/js/na-search.js'></script>
   
 
-  <link rel='stylesheet' href='/announcements/css/prism.css' type='text/css'>
-  <link rel='stylesheet' href='/announcements/css/prism-netapp.css' type='text/css'>
+  
+  <link rel='stylesheet' href='/announcements/us-en/css/na-pagenav.css' type='text/css' id="pagenav-css">
+  <script src='/announcements/us-en/js/na-pagenav.js'></script>
+  
 
-  <script src='/announcements/js/clouddocs.js'></script>
-  <script src='/announcements/js/s_code_impl.js'></script>
-  <script src='/announcements/js/jquery.navgoco.min.js'></script>
+  <link rel='stylesheet' href='/announcements/us-en/css/prism.css' type='text/css'>
+  <link rel='stylesheet' href='/announcements/us-en/css/prism-netapp.css' type='text/css'>
+
+  <script src='/announcements/us-en/js/clouddocs.js'></script>
+  <script src='/announcements/us-en/js/s_code_impl.js'></script>
+  <script src='/announcements/us-en/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src='/announcements/js/toc.js'></script>
-  <script src='/announcements/js/customscripts.js'></script>
+  <script src='/announcements/us-en/js/toc.js'></script>
+  <script src='/announcements/us-en/js/customscripts.js'></script>
 
   <script>
       $(document).ready(function() {
@@ -200,7 +203,7 @@
       <div class="n-property-bar__menu-toggle">
         <a href="#" class="n-property-bar__menu-toggle-link"><span class="n-property-bar__menu-toggle-text">Menu</span><svg class="n-icon-bars n-property-bar__menu-toggle-icon" aria-labelledby="title">
           <title>bars</title>
-          <use xlink:href="/announcements/common/svg/sprite.svg#bars"></use>
+          <use xlink:href="/announcements/us-en/common/svg/sprite.svg#bars"></use>
         </svg></a>
       </div>
       <div class="n-property-bar__property-mark n-property-bar__property-mark--has-property-name">
@@ -208,17 +211,21 @@
           <div class="n-property-bar__logo">
             <svg class="n-icon-netapp-mark n-property-bar__netapp-mark-icon" aria-labelledby="title">
               <title>netapp-mark</title>
-              <use xlink:href="/announcements/common/svg/sprite.svg#netapp-mark"></use>
+              <use xlink:href="/announcements/us-en/common/svg/sprite.svg#netapp-mark"></use>
             </svg>
             <svg class="n-property-bar__logo-svg" aria-labelledby="title">
               <title>NetApp</title>
-              <use xlink:href="/announcements/common/svg/sprite.svg#netapp-logo"></use>
+              <use xlink:href="/announcements/us-en/common/svg/sprite.svg#netapp-logo"></use>
             </svg>
           </div>
           <h2 class="n-property-bar__property-name">Cloud Docs</h2>
         </a>
       </div>
 
+      
+      <div id="search-demo-container" class="n-property-bar__search">
+        <div id="react-search"></div>
+      </div>
       
 
       <div id="ie-i18n" class="n-property-bar__utils">
@@ -229,7 +236,7 @@
                 <span class="ie-i18n-lang">English</span>
                 <svg class="ie-i18n-icon-container" class="n-property-bar__logo-svg" aria-labelledby="title">
                   <title>globe</title>
-                  <use xlink:href="/announcements/common/svg/sprite.svg#globe" class="n-icon-globe n-globe__icon"></use>
+                  <use xlink:href="/announcements/us-en/common/svg/sprite.svg#globe" class="n-icon-globe n-globe__icon"></use>
                 </svg>
               </a>
             </li>
@@ -308,7 +315,7 @@
         
 
   
-    <li><a href="cloud-compliance.html">Docs for Cloud Compliance</a></li>
+    <li class="active"><a href="cloud-compliance.html">Docs for Cloud Compliance</a></li>
   
 
   
@@ -431,8 +438,11 @@
           
 
 <div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">Search results
+  <h1 class="n-doc__component-detail-heading">Docs for Cloud Compliance
     <span>
+      
+        <a target="_blank" href="https://github.com/NetAppDocs/announcements/blob/master/cloud-compliance.adoc" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit on GitHub</a>
+        <a target="_blank" href="https://github.com/NetAppDocs/announcements/issues/new?body=Page%3A%20[Docs for Cloud Compliance](https://docs.netapp.com/us-en/announcements/cloud-compliance.html)" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Request doc changes</a>
       
     </span>
   </h1>
@@ -440,22 +450,50 @@
 
 <p class="page-details">
 
-<time datetime="2020-01-22 20:08:15 +0000">01/22/2020</time>
+<time datetime="22-Jan-2020">01/22/2020</time>
 
 
 <span>Contributors
+  
+  <a target="_blank" href="https://github.com/netapp-bcammett">
+    <img  class="avatar avatar-small"
+          alt="netapp-bcammett"
+          width="20" height="20"
+          src="https://avatars3.githubusercontent.com/u/18287750?v=4"
+          style="border-radius: 50%;"/>
+  </a>
   
 </span>
 
 </p>
 
-<div id="react-search"></div>
-
+<div class="paragraph lead">
+<p>Right before the end of 2019, we added content in the Cloud Manager documentation for the Cloud Compliance service.</p>
+</div>
+<div class="paragraph">
+<p>Cloud Compliance is a data privacy and compliance service for Cloud Volumes ONTAP in AWS and Azure. Using Artificial Intelligence (AI) driven technology, Cloud Compliance helps organizations understand data context and identify sensitive data across Cloud Volumes ONTAP systems.</p>
+</div>
+<div class="paragraph">
+<p>Cloud Compliance is operated and managed through Cloud Manager. You can access Cloud Compliance features from the <strong>Compliance</strong> tab in Cloud Manager.</p>
+</div>
+<div class="paragraph">
+<p>Go to the <a href="https://docs.netapp.com/us-en/occm/concept_cloud_compliance.html">Cloud Manager documentation</a> to learn how to get started.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/cloud-compliance.gif" alt="A screenshot of the Cloud Compliance content in the Cloud Manager documentation"></span>.</p>
+</div>
 
         </article>
         <!-- Page Container -->
       </div>
 
+      
+      <div class="page-nav-container">
+        <nav class="page-nav-fixed">
+          <div class="page-nav-title">On this page:</div>
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </nav>
+      </div>
       
 
     </div>
@@ -483,7 +521,7 @@
                       <span class="n-footer__social-link-text">blog</span>
                       <svg class="n-icon-blog n-footer__social-link-icon" aria-labelledby="title">
                         <title>blog@</title>
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/announcements/common/svg/sprite.svg#blog"></use>
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/announcements/us-en/common/svg/sprite.svg#blog"></use>
                       </svg>
                     </a>
                   </li>
@@ -492,7 +530,7 @@
                       <span class="n-footer__social-link-text">community</span>
                       <svg class="n-icon-twitter n-footer__social-link-icon" aria-labelledby="title">
                         <title>community@</title>
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/announcements/common/svg/sprite.svg#comments"></use>
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/announcements/us-en/common/svg/sprite.svg#comments"></use>
                       </svg>
                     </a>
                   </li>
@@ -502,7 +540,7 @@
                       <span class="n-footer__social-link-text">twitter</span>
                       <svg class="n-icon-twitter n-footer__social-link-icon" aria-labelledby="title">
                         <title>twitter@</title>
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/announcements/common/svg/sprite.svg#twitter"></use>
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/announcements/us-en/common/svg/sprite.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
@@ -511,7 +549,7 @@
                       <span class="n-footer__social-link-text">youtube</span>
                       <svg class="n-icon-youtube n-footer__social-link-icon" aria-labelledby="title">
                         <title>youtube@</title>
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/announcements/common/svg/sprite.svg#youtube"></use>
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/announcements/us-en/common/svg/sprite.svg#youtube"></use>
                       </svg>
                     </a>
                   </li>
@@ -535,42 +573,17 @@
 
     </div>
 
-    <script src="/announcements/common/js/components.js"></script>
-    <script src="/announcements/common/js/doc-components.js"></script>
+    <script src="/announcements/us-en/common/js/components.js"></script>
+    <script src="/announcements/us-en/common/js/doc-components.js"></script>
 
     <!-- Elasticsearch JS -->
-    <script type="text/javascript" src='/announcements/js/bundle.js'></script>
+    <script type="text/javascript" src='/announcements/us-en/js/bundle.js'></script>
 
     <!-- Syntax Highlighting -->
-    <script type="text/javascript" src='/announcements/js/prism.js'></script>
-    <script type="text/javascript" src='/announcements/js/prism-curl.js'></script>
+    <script type="text/javascript" src='/announcements/us-en/js/prism.js'></script>
+    <script type="text/javascript" src='/announcements/us-en/js/prism-curl.js'></script>
 
   </body>
 
-  
-  <script>
-      if(hasParameter(window.location.search,'q')) {
-        var queryString = decodeURI(getParameter(window.location.search, 'q'));
-        document.getElementsByClassName("sk-search-box__text")[0].setAttribute("value", queryString);
-      }
-
-      function getParameter(searchString,param) {
-        var params = searchString.split('?&');
-        for(var i=0;i<params.length;i++) {
-          var paramIndex = params[i].indexOf(param+"=");
-          if(paramIndex != -1) {
-            return params[i].substring(paramIndex+param.length+1);
-          }
-        }
-
-        return "";
-      }
-
-      function hasParameter(searchString,param) {
-        searchString = searchString || "";
-        param = param || "";
-        return (searchString.indexOf("?"+param+"=") != -1 || searchString.indexOf("&"+param+"=") != -1);
-      }
-  </script>
   
 </html>

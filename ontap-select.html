@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Search results | NetApp Cloud Docs</title>
+  <title>Docs for ONTAP Select | NetApp Cloud Docs</title>
   <meta charset="utf-8">
-  <meta property="og:title" content="Search results | NetApp Cloud Docs" />
+  <meta property="og:title" content="Docs for ONTAP Select | NetApp Cloud Docs" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://docs.netapp.com/announcements/search.html" />
-	<meta property="og:description" content="" />
+	<meta property="og:url" content="https://docs.netapp.com/announcements/ontap-select.html" />
+	<meta property="og:description" content="We recently added content for ONTAP Select to our GitHub authoring platform." />
   <meta property="og:image" content="https://docs.netapp.com/announcements/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,11 +17,9 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="">
-  <meta name="keywords" content=" ">
+  <meta name="description" content="We recently added content for ONTAP Select to our GitHub authoring platform.">
+  <meta name="keywords" content=" announcements, documentation, ontap select">
   
-  
-  <meta name="translate" content="false"/>
   
 
   <!-- Icons -->
@@ -63,7 +61,12 @@
   <!-- Used to import Promise for IE. Required for SearchKit -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
   
+    <script src='/announcements/js/na-search.js'></script>
+  
 
+  
+  <link rel='stylesheet' href='/announcements/css/na-pagenav.css' type='text/css' id="pagenav-css">
+  <script src='/announcements/js/na-pagenav.js'></script>
   
 
   <link rel='stylesheet' href='/announcements/css/prism.css' type='text/css'>
@@ -220,6 +223,10 @@
       </div>
 
       
+      <div id="search-demo-container" class="n-property-bar__search">
+        <div id="react-search"></div>
+      </div>
+      
 
       <div id="ie-i18n" class="n-property-bar__utils">
         <div id="ie-i18n-menu">
@@ -312,7 +319,7 @@
   
 
   
-    <li><a href="ontap-select.html">Docs for ONTAP Select</a></li>
+    <li class="active"><a href="ontap-select.html">Docs for ONTAP Select</a></li>
   
 
 
@@ -431,8 +438,11 @@
           
 
 <div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">Search results
+  <h1 class="n-doc__component-detail-heading">Docs for ONTAP Select
     <span>
+      
+        <a target="_blank" href="https://github.com/NetAppDocs/announcements/blob/master/ontap-select.adoc" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit on GitHub</a>
+        <a target="_blank" href="https://github.com/NetAppDocs/announcements/issues/new?body=Page%3A%20[Docs for ONTAP Select](https://docs.netapp.com/us-en/announcements/ontap-select.html)" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Request doc changes</a>
       
     </span>
   </h1>
@@ -440,22 +450,47 @@
 
 <p class="page-details">
 
-<time datetime="2020-01-22 20:08:15 +0000">01/22/2020</time>
+<time datetime="22-Jan-2020">01/22/2020</time>
 
 
 <span>Contributors
+  
+  <a target="_blank" href="https://github.com/netapp-bcammett">
+    <img  class="avatar avatar-small"
+          alt="netapp-bcammett"
+          width="20" height="20"
+          src="https://avatars3.githubusercontent.com/u/18287750?v=4"
+          style="border-radius: 50%;"/>
+  </a>
   
 </span>
 
 </p>
 
-<div id="react-search"></div>
-
+<div class="paragraph lead">
+<p>We recently added content for ONTAP Select to our GitHub authoring platform. The content can help you with ONTAP Select running on VMware ESXi, and it provides hypervisor-independent documentation for using the ONTAP Select Deploy REST API.</p>
+</div>
+<div class="paragraph">
+<p>We&#8217;re excited about this change because the content authoring team combined content from multiple sources into one searchable online library.</p>
+</div>
+<div class="paragraph">
+<p>Take a look and contribute to this new documentation experience for ONTAP Select. You can edit, request a change, or even send feedback. Go to the <a href="https://docs.netapp.com/us-en/ontap-select/index.html">ONTAP Select documentation</a> to get started.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/ontap-select.gif" alt="ontap select"></span></p>
+</div>
 
         </article>
         <!-- Page Container -->
       </div>
 
+      
+      <div class="page-nav-container">
+        <nav class="page-nav-fixed">
+          <div class="page-nav-title">On this page:</div>
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </nav>
+      </div>
       
 
     </div>
@@ -547,30 +582,5 @@
 
   </body>
 
-  
-  <script>
-      if(hasParameter(window.location.search,'q')) {
-        var queryString = decodeURI(getParameter(window.location.search, 'q'));
-        document.getElementsByClassName("sk-search-box__text")[0].setAttribute("value", queryString);
-      }
-
-      function getParameter(searchString,param) {
-        var params = searchString.split('?&');
-        for(var i=0;i<params.length;i++) {
-          var paramIndex = params[i].indexOf(param+"=");
-          if(paramIndex != -1) {
-            return params[i].substring(paramIndex+param.length+1);
-          }
-        }
-
-        return "";
-      }
-
-      function hasParameter(searchString,param) {
-        searchString = searchString || "";
-        param = param || "";
-        return (searchString.indexOf("?"+param+"=") != -1 || searchString.indexOf("&"+param+"=") != -1);
-      }
-  </script>
   
 </html>
