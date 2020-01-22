@@ -16,6 +16,7 @@ In February of 2018, we launched GitHub-based documentation on https://docs.neta
 
 Here are the most recent announcements:
 
+* link:ontap-system-manager.html[Docs for ONTAP System Manager] (23 Jan 2020)
 * link:cloud-compliance.html[Docs for Cloud Compliance] (22 Jan 2020)
 * link:ontap-select.html[Docs for ONTAP Select] (22 Jan 2020)
 * link:hci.html[Docs for NetApp HCI Cloud Services and Solutions] (22 Nov 2019)
