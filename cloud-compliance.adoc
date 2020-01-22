@@ -3,7 +3,7 @@ sidebar: sidebar
 permalink: cloud-compliance.html
 keywords: announcements, documentation, cloud compliance
 summary: Right before the end of 2019, we added content for the Cloud Compliance service in the Cloud Manager documentation.
-last_modified: 17-Jan-2020
+last_modified: 22-Jan-2020
 ---
 
 = Docs for Cloud Compliance
