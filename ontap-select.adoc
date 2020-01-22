@@ -3,7 +3,7 @@ sidebar: sidebar
 permalink: ontap-select.html
 keywords: announcements, documentation, ontap select
 summary: We recently added content for ONTAP Select to our GitHub authoring platform.
-last_modified: 17-Jan-2020
+last_modified: 22-Jan-2020
 ---
 
 = Docs for ONTAP Select
@@ -14,14 +14,10 @@ last_modified: 17-Jan-2020
 :imagesdir: ./media/
 
 [.lead]
-We recently added content for ONTAP Select to our GitHub authoring platform. The content can help you with ONTAP Select running on VMware ESXi, as well as the hypervisor-independent documentation (such as the REST API).
+We recently added content for ONTAP Select to our GitHub authoring platform. The content can help you with ONTAP Select running on VMware ESXi, and it provides hypervisor-independent documentation for using the ONTAP Select Deploy REST API.
 
 We're excited about this change because the content authoring team combined content from multiple sources into one searchable online library.
 
 Take a look and contribute to this new documentation experience for ONTAP Select. You can edit, request a change, or even send feedback. Go to the https://docs.netapp.com/us-en/ontap-select/index.html[ONTAP Select documentation] to get started.
 
 image:ontap-select.gif[]
-
-*animated gif instead of a static image*
-
-image:Untitled2.gif[]
