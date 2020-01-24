@@ -20,8 +20,8 @@ Go to https://docs.netapp.com/us-en/hci/index.html[NetApp HCI Cloud Services and
 
 The cloud services information explains how to enable cloud services using NetApp HCI Hybrid Cloud Control, how to create clusters and quickly deploy applications using NetApp Kubernetes Service, and how to create Cloud Volumes on NetApp HCI using NetApp Fabric Orchestrator. Fabric Orchestrator is a centralized storage and data management control plane to discover and manage your storage assets and data estate, anywhere.
 
-image:hci_cloudservices.png[NetApp HCI Cloud Services documentation]
+image:hci_cloudservices.gif[NetApp HCI Cloud Services documentation]
 
 We’ve also added the NetApp HCI Solutions Catalog, which provides customers with the information needed to deploy and operate private clouds, supporting a wide variety of use cases spanning both on-premise and off-premise. NetApp HCI Solutions deliver value-add capabilities across public, private, hybrid and multi-cloud in technology areas such as DevOps, end user computing, enterprise applications, artificial intelligence, data protection and Data Fabric management.
 
-image:hci_solutions_catalog.png[NetApp HCI Solutions Catalog]
+image:hci_solutions_catalog.gif[NetApp HCI Solutions Catalog]
