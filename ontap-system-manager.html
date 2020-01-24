@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Search results | NetApp Cloud Docs</title>
+  <title>Docs for ONTAP System Manager | NetApp Cloud Docs</title>
   <meta charset="utf-8">
-  <meta property="og:title" content="Search results | NetApp Cloud Docs" />
+  <meta property="og:title" content="Docs for ONTAP System Manager | NetApp Cloud Docs" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://docs.netapp.com/announcements/search.html" />
-	<meta property="og:description" content="" />
+	<meta property="og:url" content="https://docs.netapp.com/announcements/ontap-system-manager.html" />
+	<meta property="og:description" content="Now that ONTAP 9.7 is Generally Available, we wanted to announce that we recently added content for ONTAP System Manager to our GitHub authoring platform." />
   <meta property="og:image" content="https://docs.netapp.com/announcements/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,11 +17,9 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="">
-  <meta name="keywords" content=" ">
+  <meta name="description" content="Now that ONTAP 9.7 is Generally Available, we wanted to announce that we recently added content for ONTAP System Manager to our GitHub authoring platform.">
+  <meta name="keywords" content=" announcements, documentation, ontap system manager, system manager">
   
-  
-  <meta name="translate" content="false"/>
   
 
   <!-- Icons -->
@@ -63,7 +61,12 @@
   <!-- Used to import Promise for IE. Required for SearchKit -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
   
+    <script src='/announcements/js/na-search.js'></script>
+  
 
+  
+  <link rel='stylesheet' href='/announcements/css/na-pagenav.css' type='text/css' id="pagenav-css">
+  <script src='/announcements/js/na-pagenav.js'></script>
   
 
   <link rel='stylesheet' href='/announcements/css/prism.css' type='text/css'>
@@ -220,6 +223,10 @@
       </div>
 
       
+      <div id="search-demo-container" class="n-property-bar__search">
+        <div id="react-search"></div>
+      </div>
+      
 
       <div id="ie-i18n" class="n-property-bar__utils">
         <div id="ie-i18n-menu">
@@ -308,7 +315,7 @@
         
 
   
-    <li><a href="ontap-system-manager.html">Docs for ONTAP System Manager</a></li>
+    <li class="active"><a href="ontap-system-manager.html">Docs for ONTAP System Manager</a></li>
   
 
   
@@ -435,8 +442,11 @@
           
 
 <div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">Search results
+  <h1 class="n-doc__component-detail-heading">Docs for ONTAP System Manager
     <span>
+      
+        <a target="_blank" href="https://github.com/NetAppDocs/announcements/blob/master/ontap-system-manager.adoc" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit on GitHub</a>
+        <a target="_blank" href="https://github.com/NetAppDocs/announcements/issues/new?body=Page%3A%20[Docs for ONTAP System Manager](https://docs.netapp.com/us-en/announcements/ontap-system-manager.html)" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Request doc changes</a>
       
     </span>
   </h1>
@@ -444,22 +454,50 @@
 
 <p class="page-details">
 
-<time datetime="2020-01-24 11:08:08 +0000">01/24/2020</time>
+<time datetime="23-Jan-2020">01/23/2020</time>
 
 
 <span>Contributors
+  
+  <a target="_blank" href="https://github.com/netapp-bcammett">
+    <img  class="avatar avatar-small"
+          alt="netapp-bcammett"
+          width="20" height="20"
+          src="https://avatars3.githubusercontent.com/u/18287750?v=4"
+          style="border-radius: 50%;"/>
+  </a>
   
 </span>
 
 </p>
 
-<div id="react-search"></div>
-
+<div class="paragraph lead">
+<p>Now that ONTAP 9.7 is Generally Available, we wanted to announce that we added content for ONTAP System Manager to our GitHub authoring platform.</p>
+</div>
+<div class="paragraph">
+<p>Beginning with ONTAP 9.7, a totally redesigned ONTAP System Manager simplifies ONTAP management with an intuitive graphical user interface. The new dashboard shows key cluster status and performance on one screen.</p>
+</div>
+<div class="paragraph">
+<p>The documentation for ONTAP System Manager is totally redesigned as well. Easy-to-navigate content is quick and easy to use. Watch embedded videos for quick overviews of major management tasks.</p>
+</div>
+<div class="paragraph">
+<p>Go to the <a href="https://docs.netapp.com/us-en/ontap/index.html">ONTAP System Manager documentation</a> to get started.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/ontap-system-manager.gif" alt="A screenshot of the Cloud Compliance content in the Cloud Manager documentation"></span>.</p>
+</div>
 
         </article>
         <!-- Page Container -->
       </div>
 
+      
+      <div class="page-nav-container">
+        <nav class="page-nav-fixed">
+          <div class="page-nav-title">On this page:</div>
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </nav>
+      </div>
       
 
     </div>
@@ -551,30 +589,5 @@
 
   </body>
 
-  
-  <script>
-      if(hasParameter(window.location.search,'q')) {
-        var queryString = decodeURI(getParameter(window.location.search, 'q'));
-        document.getElementsByClassName("sk-search-box__text")[0].setAttribute("value", queryString);
-      }
-
-      function getParameter(searchString,param) {
-        var params = searchString.split('?&');
-        for(var i=0;i<params.length;i++) {
-          var paramIndex = params[i].indexOf(param+"=");
-          if(paramIndex != -1) {
-            return params[i].substring(paramIndex+param.length+1);
-          }
-        }
-
-        return "";
-      }
-
-      function hasParameter(searchString,param) {
-        searchString = searchString || "";
-        param = param || "";
-        return (searchString.indexOf("?"+param+"=") != -1 || searchString.indexOf("&"+param+"=") != -1);
-      }
-  </script>
   
 </html>
