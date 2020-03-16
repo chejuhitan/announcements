@@ -6,7 +6,7 @@ summary: Now that ONTAP 9.7 is Generally Available, we wanted to announce that w
 last_modified: 16-Mar-2020
 ---
 
-= Refreshed user experience
+= Enhanced user experience
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -14,7 +14,7 @@ last_modified: 16-Mar-2020
 :imagesdir: ./media/
 
 [.lead]
-We're pleased to announce that we have refreshed the user experience for our GitHub-based documentation on https://docs.netapp.com[docs.netapp.com]. These changes provide a more consistent experience across NetApp online content.
+We're pleased to announce that we have enhanced the user experience for our GitHub-based documentation on https://docs.netapp.com[docs.netapp.com]. These changes provide a more consistent experience across NetApp online content.
 
 == Layout and style
 
