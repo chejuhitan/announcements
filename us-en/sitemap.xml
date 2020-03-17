@@ -78,7 +78,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/announcements/</loc>
       
-      <lastmod>2020-01-22T20:20:08+00:00</lastmod>
+      <lastmod>2020-03-17T18:33:51+00:00</lastmod>
       
     </url>
   
@@ -93,6 +93,13 @@
       <loc>https://docs.netapp.com/us-en/announcements/kubernetes-service.html</loc>
       
       <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/announcements/look-and-feel.html</loc>
+      
+      <lastmod>2020-03-17T00:00:00+00:00</lastmod>
       
     </url>
   
@@ -155,7 +162,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/announcements//search.html</loc>
       
-      <lastmod>2020-03-17T17:04:12+00:00</lastmod>
+      <lastmod>2020-03-17T18:40:52+00:00</lastmod>
       
     </url>
   
