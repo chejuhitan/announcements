@@ -1,0 +1,35 @@
+---
+sidebar: sidebar
+permalink: look-and-feel.html
+keywords: announcements, documentation, ontap system manager, system manager
+summary: Now that ONTAP 9.7 is Generally Available, we wanted to announce that we recently added content for ONTAP System Manager to our GitHub authoring platform.
+last_modified: 17-Mar-2020
+---
+
+= Enhanced user experience
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+We're pleased to announce that we have enhanced the user experience for our GitHub-based documentation on https://docs.netapp.com[docs.netapp.com]. These changes provide a more consistent experience across NetApp online content.
+
+== Layout and style
+
+The layout and style of the docs now more closely resembles what you'll find on netapp.com. This includes font and color, the layout of the left and right navigation, and the header and footer.
+
+image:layout.gif[]
+
+== Breadcrumbs
+
+We've added breadcrumbs that make it easier for you to navigate across NetApp documentation. For example, you can click *Documentation* to head back to docs.netapp.com.
+
+image:breadcrumbs.gif[]
+
+== Links to contribute
+
+Links to contribute to our content have been consolidated above the page-level navigation. These links are always visible as you scroll through the content. So if you find an issue anywhere in the page, you can click a button to directly submit changes or to provide us with your feedback.
+
+image:contribute.gif[]
