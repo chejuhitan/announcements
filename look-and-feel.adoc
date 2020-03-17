@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: look-and-feel.html
 keywords: announcements, documentation, ontap system manager, system manager
-summary: Now that ONTAP 9.7 is Generally Available, we wanted to announce that we recently added content for ONTAP System Manager to our GitHub authoring platform.
+summary: We're pleased to announce that we have enhanced the user experience for our GitHub-based documentation on docs.netapp.com. These changes provide a more consistent experience across NetApp online content.
 last_modified: 17-Mar-2020
 ---
 
