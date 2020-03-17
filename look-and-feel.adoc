@@ -3,7 +3,7 @@ sidebar: sidebar
 permalink: look-and-feel.html
 keywords: announcements, documentation, ontap system manager, system manager
 summary: Now that ONTAP 9.7 is Generally Available, we wanted to announce that we recently added content for ONTAP System Manager to our GitHub authoring platform.
-last_modified: 16-Mar-2020
+last_modified: 17-Mar-2020
 ---
 
 = Enhanced user experience
