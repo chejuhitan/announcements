@@ -14,7 +14,7 @@ last_modified: 22-Jan-2020
 :imagesdir: ./media/
 
 [.lead]
-We recently added content for ONTAP Select to our GitHub authoring platform. The content can help you with ONTAP Select running on VMware ESXi, and it provides hypervisor-independent documentation for using the ONTAP Select Deploy REST API.
+We recently added content for ONTAP Select. The content can help you with ONTAP Select running on VMware ESXi, and it provides hypervisor-independent documentation for using the ONTAP Select Deploy REST API.
 
 We're excited about this change because the content authoring team combined content from multiple sources into one searchable online library.
 
