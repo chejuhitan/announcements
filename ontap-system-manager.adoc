@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: ontap-system-manager.html
 keywords: announcements, documentation, ontap system manager, system manager
-summary: Now that ONTAP 9.7 is Generally Available, we wanted to announce that we recently added content for ONTAP System Manager to our GitHub authoring platform.
+summary: Now that ONTAP 9.7 is Generally Available, we wanted to announce that we added redesigned content for ONTAP System Manager to docs.netapp.com.
 last_modified: 23-Jan-2020
 ---
 
@@ -14,7 +14,7 @@ last_modified: 23-Jan-2020
 :imagesdir: ./media/
 
 [.lead]
-Now that ONTAP 9.7 is Generally Available, we wanted to announce that we added content for ONTAP System Manager to our GitHub authoring platform.
+Now that ONTAP 9.7 is Generally Available, we wanted to announce that we added redesigned content for ONTAP System Manager to docs.netapp.com.
 
 Beginning with ONTAP 9.7, a totally redesigned ONTAP System Manager simplifies ONTAP management with an intuitive graphical user interface. The new dashboard shows key cluster status and performance on one screen.
 
