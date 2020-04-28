@@ -1,0 +1,31 @@
+---
+sidebar: sidebar
+permalink: pdfs.html
+keywords: pdfs, announcement, download pdf, download a pdf
+summary: We've listened to your feedback and added the ability to download PDFs right from our HTML docs. This makes it easy for you to take our content on the go.
+last_modified: 28-Apr-2020
+---
+
+= Download a PDF
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+We've listened to your feedback and added the ability to download PDFs right from our HTML docs. This makes it easy for you to take our content on the go.
+
+You can download a PDF in a few different ways.
+
+The first way is to download a PDF of the page that you're currently viewing.
+
+image:download-pdf-topic.gif[A screenshot of the Download PDF of this topic option that appears at the top of a page.]
+
+More options are available above the table of the contents on the left. Click *Download PDF* and you'll see options to generate a PDF of the entire doc set, the entire section (if the section has multiple pages), or just the page that you're viewing.
+
+image:download-pdf-toc.gif[A screenshot of the Download PDF option that appears above the table of contents.]
+
+We're still working on this functionality, so consider "download a PDF" as a BETA feature for now. There are a few known issues, such as links within the PDF pointing back to HTML pages.
+
+It's also important to note that we're constantly updating and improving our content, so you'll want to use these PDFs for short intervals. For example, they're helpful if you're going on a plane ride or if you're going to a secure location where internet isn't available. You shouldn't download a PDF and refer to that same PDF months later--there's a very good chance that it will be out of date. Be sure to download the latest content.
