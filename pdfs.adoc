@@ -22,7 +22,7 @@ The first way is to download a PDF of the page that you're currently viewing.
 
 image:download-pdf-topic.gif[A screenshot of the Download PDF of this topic option that appears at the top of a page.]
 
-More options are available above the table of the contents on the left. Click *Download PDF* and you'll see options to generate a PDF of the entire doc set, the entire section (if the section has multiple pages), or just the page that you're viewing.
+More options are available above the table of the contents on the left. Click *Download PDF* and you'll see options to generate a PDF of the entire doc site, the entire section (if the section has multiple pages), or just the page that you're viewing.
 
 image:download-pdf-toc.gif[A screenshot of the Download PDF option that appears above the table of contents.]
 
