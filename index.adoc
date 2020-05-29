@@ -16,6 +16,7 @@ In February of 2018, we launched GitHub-based documentation on https://docs.neta
 
 Here are the most recent announcements:
 
+* link:hci-update.html[HCI doc update] (29 May 2020)
 * link:pdfs.html[Download a PDF] (28 Apr 2020)
 * link:look-and-feel.html[Enhanced user experience] (17 Mar 2020)
 * link:ontap-system-manager.html[Docs for ONTAP System Manager] (23 Jan 2020)
